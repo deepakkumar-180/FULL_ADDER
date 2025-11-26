@@ -1,0 +1,12 @@
+module full_adder(
+input wire a,
+input wire b,
+input wire c,
+output wire sum,
+output wire carry
+);
+assgin sum = a^b^c;
+assgin sum =(a&b)|(a&c)|(b&c);
+
+
+endmodule
